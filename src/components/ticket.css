@@ -1,0 +1,34 @@
+.ticket-card {
+    background: linear-gradient(to bottom right, #45b39d, #3498db);
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    color: white;
+    transition: transform 0.3s ease;
+}
+
+.ticket-card:hover {
+    transform: translateY(-5px);
+}
+
+.ticket-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.username {
+    font-size: 14px;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.ticket-body {
+    font-size: 16px;
+}
+
+.ticket-body p {
+    margin-bottom: 10px;
+}
